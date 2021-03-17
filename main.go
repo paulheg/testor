@@ -107,7 +107,6 @@ func main() {
 		// check if the line is a command
 		if strings.HasPrefix(line, *commandPrefixFlag) {
 			var lineWithoutPrefix = line[len(*commandPrefixFlag):]
-			lineWithoutPrefix = strings.TrimSpace(lineWithoutPrefix)
 
 			log.Debug("Passing command:", lineWithoutPrefix)
 
