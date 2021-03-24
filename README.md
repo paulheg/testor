@@ -12,7 +12,7 @@ To test a commandline program, simply create a textfile containing the user dial
 $$arg1 arg2
 # this is a comment that will be ignored
 # in the first line you can define additional arguments for command execution
-
+#
 # everything starting with > will be sent to the program over std in
 # example:
 >command-to-pass
